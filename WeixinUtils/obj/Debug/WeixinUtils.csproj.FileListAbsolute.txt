@@ -1,0 +1,7 @@
+D:\百度云同步盘\.NET Proj\WeixinSDK_v1.0\WeixinUtils\bin\Debug\WeixinUtils.dll
+D:\百度云同步盘\.NET Proj\WeixinSDK_v1.0\WeixinUtils\bin\Debug\WeixinUtils.pdb
+D:\百度云同步盘\.NET Proj\WeixinSDK_v1.0\WeixinUtils\bin\Debug\Newtonsoft.Json.dll
+D:\百度云同步盘\.NET Proj\WeixinSDK_v1.0\WeixinUtils\bin\Debug\Newtonsoft.Json.xml
+D:\百度云同步盘\.NET Proj\WeixinSDK_v1.0\WeixinUtils\obj\Debug\WeixinUtils.csprojResolveAssemblyReference.cache
+D:\百度云同步盘\.NET Proj\WeixinSDK_v1.0\WeixinUtils\obj\Debug\WeixinUtils.dll
+D:\百度云同步盘\.NET Proj\WeixinSDK_v1.0\WeixinUtils\obj\Debug\WeixinUtils.pdb
