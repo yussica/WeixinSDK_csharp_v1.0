@@ -29,6 +29,8 @@ namespace WeixinUtils.Utils
         public weixin_receivemsg ReceiveMsg(Stream inputStream)
         {
             var content = base.Receive(inputStream);
+            if (string.IsNullOrEmpty(content))
+                return null;
             var model = Xml2Model<weixin_receivemsg>(content);
             switch (model.MsgType)
             {
@@ -51,7 +53,10 @@ namespace WeixinUtils.Utils
                     model = Xml2Model<link_receivemsg>(content);
                     break;
                 case MsgType.Event:
-                    model = Xml2Model<eventmsg>(content);
+                    if (content.IndexOf("MASSSENDJOBFINISH") == -1)
+                        model = Xml2Model<eventmsg>(content);
+                    else
+                        model = Xml2Model<SendCallback>(content);
                     break;
             }
             return model;

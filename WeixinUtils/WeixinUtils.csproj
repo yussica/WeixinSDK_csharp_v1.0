@@ -49,6 +49,8 @@
     <Compile Include="Models\enums.cs" />
     <Compile Include="Models\menu.cs" />
     <Compile Include="Models\msg.cs" />
+    <Compile Include="Models\msgex.cs" />
+    <Compile Include="Models\oauth.cs" />
     <Compile Include="Models\respmodel.cs" />
     <Compile Include="Models\token.cs" />
     <Compile Include="Models\user.cs" />
@@ -58,8 +60,10 @@
     <Compile Include="Utils\HttpUtil.cs" />
     <Compile Include="Utils\MediaUtil.cs" />
     <Compile Include="Utils\MenuUtil.cs" />
+    <Compile Include="Utils\OAuthUtil.cs" />
     <Compile Include="Utils\QRCodeUtil.cs" />
     <Compile Include="Utils\ReceiveMsgUtil.cs" />
+    <Compile Include="Utils\SendMsgExUtil.cs" />
     <Compile Include="Utils\SendMsgUtil.cs" />
     <Compile Include="Utils\UserUtil.cs" />
   </ItemGroup>
